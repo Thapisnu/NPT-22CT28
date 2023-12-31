@@ -1,0 +1,120 @@
+/*---------------------Global-------------------*/
+*
+{
+    padding:0;
+    margin:0;
+}
+body
+{
+    color:#3e4095;
+}
+nav
+{
+    border-top:2px solid black;
+    border-bottom:2px solid black;
+}
+footer
+{
+    border-top:2px solid black;
+}
+/*---------------------Global-------------------*/
+
+/*---------------------Class--------------------*/
+.center
+{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.center a
+{
+    text-decoration:none;
+    margin:5px 10px;
+    color:#3e4095;
+}
+/*---------------------Class--------------------*/
+
+/*-------------------home.html------------------*/
+main
+{
+    flex-direction:column;
+    background-color:#f7f7f7;
+    margin:30px 150px;
+    border:2px solid black;
+    padding:30px 0px;
+}
+/*-------------------home.html------------------*/
+
+/*----------------department.html---------------*/
+dept,dept-ct                  /*--for ct,ece,eee .html also used--*/
+{
+    background-color:#f7f7f7;
+    flex-direction:column;
+    border:2px solid black;
+    margin:30px 265px;
+}
+dept-head,dept-head-ct        /*--for ct,ece,eee .html also used--*/
+{
+    width:99.8%;
+    border-bottom:2px solid black;
+    padding:5px 0px;
+    background-color:#f7f7f7;
+}
+deps
+{
+    font-size:25px;
+    margin:20px 0px;
+}
+qt
+{
+    color:black;
+    font-size:18px;
+    margin-bottom:10px;
+}
+/*----------------department.html---------------*/
+
+/*---------------ct,ece,eee .html---------------*/
+dept-ct
+{
+    margin:30px 100px;
+}
+dept-ct img
+{
+    margin:10px 0px;
+    height:180px;
+    width:100%;
+}
+dept-ct h3
+{
+    margin:10px 0px;
+    font-size:30px;
+}
+dept-ct h4
+{
+    margin:10px 0px;
+    font-size:20px;
+}
+/*---------------ct,ece,eee .html---------------*/
+
+/*----------------contact.html------------------*/
+cus                           /*----cus == contact us----*/
+{
+    margin:20px 200px;
+    display:flex;
+    border:2px solid black;
+}
+cus img
+{
+    width:500px;
+    height:300px;
+    float:left;
+}
+cus-main
+{
+    border-left:2px solid black;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    padding-left:50px;
+}
+/*----------------contact.html------------------*/
