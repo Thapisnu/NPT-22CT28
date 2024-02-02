@@ -1,0 +1,31 @@
+*
+{
+    padding:0;
+    margin:0;
+}
+header,main,footer,form
+{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+header,footer,form
+{
+    padding:10px;
+    border:2px solid black;
+}
+main
+{
+    height:300px;
+}
+form
+{
+    flex-direction:column;
+    padding:20px;
+}
+input
+{
+    padding:5px;
+    font-size:20px;
+    margin:5px;
+}
