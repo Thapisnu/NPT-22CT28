@@ -1,0 +1,67 @@
+*
+{
+    padding:0;
+    margin:0;
+}
+header,footer
+{
+    border-top:2px solid black;
+    border-bottom:2px solid black;
+    padding:10px;
+}
+main
+{
+    padding:30px 10px;
+}
+table,th,td
+{
+    border:1px solid black;
+    border-collapse:collapse;
+}
+td,th
+{
+    padding:5px;
+    text-align:center;
+}
+header,main,footer
+{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.ca
+{
+    background-color:#8dff25;
+}
+.wdp
+{
+    background-color:#00BCD4;
+}
+.oops
+{
+    background-color:#ff00b1;
+}
+.os
+{
+    background-color:#ff1100;
+}
+.oops-p
+{
+    background-color:#5800f5;
+}
+.wdp-p
+{
+    background-color:#0cfdfd;
+}
+.linux-p
+{
+    background-color:yellow;
+}
+.pt
+{
+    background-color:#ffb100;
+}
+.ps
+{
+    background-color:blue;
+}
